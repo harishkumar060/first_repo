@@ -1,0 +1,30 @@
+4 using GZIP
+
+ifconfig shows the config of all network interfaces, includes IP and MAC addresses. Here in this output, the name of n/w interface is enpOs3. inet 10.0.2.15 is the local IP address. ether 08:00:27:a0:08:32 is the MAC address.
+
+
+Run and shortly explain outputs of the following commands:
+
+ip a or ifconfig
+ping google.com -c 4
+traceroute google.com
+nslookup google.com
+netstat -tuln
+curl ifconfig.me
+
+Explanation :
+142.251.222.174 by sending packets with increasing time-to-live (TTL)
+values.
+The output command shows to map the path to google
+
+
+'s server at
+
+
+Explanation :
+The output command shows to map the path to google's server at
+142.251.222.174 by sending packets with increasing time-to-live (TTL)
+values.
+
+nslookup is used to translate hostname ( here google.com) into numerical IP address. The above one 127.0.0.53 is local DNS server
+and the below one 142.252.222.174 is IPv4 address and 2404:6800:4007:833::200e is IPv6 address/
